@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "rishabh94033",
     "name": "frontend",
     "slug": "frontend",
     "version": "1.0.0",
@@ -15,8 +16,13 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
-    },
+      },
+      "config": {
+        "googleSignIn": {
+         
+          "clientId": "967242082232-g158849vtijhdm26sukem4arp2pci7ra.apps.googleusercontent.com"
+        }
+    }},
     "web": {
       "bundler": "metro",
       "output": "static",
