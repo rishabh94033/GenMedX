@@ -1,8 +1,7 @@
 {
   "expo": {
-    "owner": "rishabh94033",
-    "name": "frontend",
-    "slug": "frontend",
+    "name": "GenMedX_FE",
+    "slug": "GenMedX_FE",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,13 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "config": {
-        "googleSignIn": {
-         
-          "clientId": "967242082232-g158849vtijhdm26sukem4arp2pci7ra.apps.googleusercontent.com"
-        }
-    }},
+      }
+    },
     "web": {
       "bundler": "metro",
       "output": "static",
